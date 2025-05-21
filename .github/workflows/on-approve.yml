@@ -9,9 +9,6 @@ jobs:
     steps:
       - run: echo "This PR was approved"
 
-      - name: checkout
-        uses: actions/checkout@v2
-
       - name: Add 'approved' label
         uses: actions-ecosystem/action-add-labels@v1
         with:
